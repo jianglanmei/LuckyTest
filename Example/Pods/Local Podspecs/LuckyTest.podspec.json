@@ -1,0 +1,27 @@
+{
+  "name": "LuckyTest",
+  "version": "0.1.0",
+  "summary": "A short description of LuckyTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/337101067@qq.com/LuckyTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "337101067@qq.com": "337101067@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/337101067@qq.com/LuckyTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LuckyTest/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}

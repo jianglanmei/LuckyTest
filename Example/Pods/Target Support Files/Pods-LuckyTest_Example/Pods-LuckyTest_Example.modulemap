@@ -1,0 +1,6 @@
+framework module Pods_LuckyTest_Example {
+  umbrella header "Pods-LuckyTest_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
