@@ -7,8 +7,12 @@
 #
 
 Pod::Spec.new do |s|
+
+# 组件工程名
   s.name             = 'LuckyTest'
+# 组件版本号
   s.version          = '0.1.0'
+# 组件简介
   s.summary          = 'A short description of LuckyTest.'
 
 # This description is used to generate tags and improve search results.
@@ -20,7 +24,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-
+# 远程仓库地址
   s.homepage         = 'https://github.com/337101067@qq.com/LuckyTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -30,13 +34,17 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
+# 共享的文件路径
   s.source_files = 'LuckyTest/Classes/**/*'
   
+# 资源文件存放路径
   # s.resource_bundles = {
   #   'LuckyTest' => ['LuckyTest/Assets/*.png']
   # }
-
+  
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
+# 该组件中使用到的其他依赖组件和第三方组件
+   s.dependency 'AFNetworking', '~> 2.3'
 end

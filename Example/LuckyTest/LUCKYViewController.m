@@ -7,6 +7,7 @@
 //
 
 #import "LUCKYViewController.h"
+#import "LuckyTest.h"
 
 @interface LUCKYViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [LuckyTest test];
 }
 
 - (void)didReceiveMemoryWarning
