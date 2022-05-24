@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LuckyTest_Example' do
+  pod 'LuckyTest', :path => '../'
+
+  target 'LuckyTest_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
